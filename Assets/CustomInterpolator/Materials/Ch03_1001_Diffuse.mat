@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ch03_1001_Diffuse
-  m_Shader: {fileID: -6465566751694194690, guid: 95ef58c35f15ed844b69c359045606e1, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9bbcea3b492544ee8bece544728bdc22, type: 3}
   m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -123,35 +123,51 @@ Material:
     - _BUILTIN_ZTest: 4
     - _BUILTIN_ZWrite: 1
     - _BUILTIN_ZWriteControl: 0
+    - _Brightness: 3.49
     - _BumpScale: 1
+    - _Clipping: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Distortion: 0.2
     - _DstBlend: 0
     - _Fade: 0.455
     - _Flash: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _Intensity: 0.09
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OutlineThickness: 0
     - _Parallax: 0.02
+    - _PulseFreq: 0.119
+    - _Random: 0.78
+    - _RimBrightness: 14.3
+    - _RimPower: 10
     - _Scale: 50
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: -0.93
     - _SrcBlend: 1
+    - _Stretch: 2.68
+    - _StretchBackface: 0.64
+    - _StretchRim: 2
+    - _TintingBrightness: 5
     - _UVSec: 0
+    - _Width: 0.182
     - _ZWrite: 1
     m_Colors:
     - Color_028c1b43e12749a5ae3d15336fa84b73: {r: 0, g: 4, b: 0.4078431, a: 0.3490196}
     - Color_3b628dffeb7346fbbeaa01442a3e0014: {r: 6.324006, g: 0, b: 0, a: 1}
     - Color_66652d091e02412cb31b9764a08e65c0: {r: 0, g: 0, b: 0, a: 0}
-    - Color_7db4e335c81f4e378960207ce4a9dbb2: {r: 1, g: 0.6172059, b: 0.4386792, a: 0}
+    - Color_7db4e335c81f4e378960207ce4a9dbb2: {r: 0.19691238, g: 0.7254902, b: 0, a: 0}
     - Color_c7f8a6b95fa5470ca457be87249c59f0: {r: 0, g: 0, b: 0, a: 1}
     - ImpactPoint: {r: 0, g: 0, b: 0, a: 0}
     - ImpactRippleDirection: {r: 0, g: 0, b: 1, a: 0}
     - TopColor: {r: 0.0509078, g: 0.9811321, b: 0.07769295, a: 1}
+    - _BackfaceCol: {r: 0, g: 0.5, b: 1, a: 1}
+    - _BackfaceCol2: {r: 0, g: 1, b: 1, a: 1}
     - _ClipVector: {r: 0.71, g: 0.71, b: 0, a: 0}
     - _Color: {r: 0.9063317, g: 0.9063317, b: 0.9063317, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -159,6 +175,10 @@ Material:
     - _FadeColor: {r: 5.992157, g: 2.258824, b: 1.411765, a: 0}
     - _MaskColor: {r: 1, g: 0.240566, b: 0.4097877, a: 0}
     - _OutlineColor: {r: 2, g: 1.32549, b: 0.9882353, a: 1}
+    - _RimCol: {r: 0.18867922, g: 0.06852971, b: 0.18867922, a: 1}
+    - _RimCol2: {r: 1, g: 1, b: 1, a: 1}
+    - _Tinting: {r: 0, g: 0, b: 1, a: 1}
+    - _Tinting2: {r: 0, g: 0, b: 0, a: 1}
     - _Wing: {r: 20, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1665438406205917040
