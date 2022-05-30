@@ -3,11 +3,11 @@ Shader "Custom/GlitchWireframeEffect"
   Properties
   {
     [Header(Vertex Displacement)]
-    _Intensity ("Vertex Intensity", Range(0,1)) = 0.1
-    _Width("Pulse Width", Range(0,1)) = 0.2
-    _PulseFreq("Pulse Freq", Range(0,1)) = 0.1
-    _Scale("Pulse Scale", Range(0,5)) = 0.1
-    _Speed("Speed", Range(-5,5)) = 0.5
+    _Intensity ("Vertex Intensity", Range(0,1)) = 0.3
+    _Width("Pulse Width", Range(0,1)) = 0.5
+    _PulseFreq("Pulse Freq", Range(0,1)) = 0.2
+    _Scale("Pulse Scale", Range(0,5)) = 2 
+    _Speed("Speed", Range(-5,5)) = 0.3
     _Random("Random Offset", Range(0,5)) = 0.0
 
     [Header(Tinting)]
@@ -17,21 +17,21 @@ Shader "Custom/GlitchWireframeEffect"
     _Tinting2("Albedo Tinting 2", Color) = (0,0,0,1)
 
     [Header(Backfaces)]
-    _Brightness ("Backface Brightness", Range(0,5)) = 1
+    _Brightness ("Backface Brightness", Range(0,5)) = 4
     _BackfaceCol ("Backface Color", Color) = (0,0.5,1,1)
     _BackfaceCol2 ("Backface Color2", Color) = (0,1,1,1)
     _StretchBackface("Stretch BackFace Gradient", Range(0,5)) = 0.0
 
     [Header(Rim)]
-    _RimBrightness("Rim Brightness", Range(0,20)) = 1
-    _RimPower("RImPOwer", Range(0,20)) = 3
-    _StretchRim("Stretch Rim Gradient", Range(0,5)) = 1
+    _RimBrightness("Rim Brightness", Range(0,20)) = 5
+    _RimPower("RImPOwer", Range(0,20)) = 10
+    _StretchRim("Stretch Rim Gradient", Range(0,5)) = 2
     _RimCol ("Rim Color", Color) = (1,0,1,1)
     _RimCol2 ("Rim Color 2", Color) = (1,1,1,1)
 
     [Header(Other)]
     _Clipping("Front Face Clipping", Range(0,1)) = 0.0
-    _Distortion("Distortion", Range(0,1)) = 0.1
+    _Distortion("Distortion", Range(0,1)) = 0.2
   }
   SubShader
   {
@@ -47,7 +47,7 @@ Shader "Custom/GlitchWireframeEffect"
     #pragma surface surf Simple vertex:vert addshadow 
 
     // Use shader model 3.0 target, to get nicer looking lighting
-    #pragma target 3.0
+    #pragma target 4.0
     
 
     sampler2D _GrabTex;
